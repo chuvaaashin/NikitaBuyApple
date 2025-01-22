@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Helvetica', sans-serif;
+    scrollbar-width: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.head__screen {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    background: linear-gradient(calc(180deg - 54deg), rgb(0, 0, 0), rgb(207, 168, 145));
+}
+
+.header {
+    width: 100%;
+    min-height: 110px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: rgba(84, 73, 64, 0.2) solid 1px;
+    border-radius: 3rem;
+    margin-top: 30px;
+}
+
+.header__logo {
+    align-self: center;
+    padding-left: 100px;
+}
+
+.header__logo img{
+    width: 200px;
+    height: 24px;
+}
+
+.header__button__container {
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+}
+
+.header__button {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 90%;
+    align-self: center;
+    color: white;
+    border: none;
+    outline: none;
+    padding-left: 176px;
+}
+
+.header__button:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.text-container {
+    line-height: 100%;
+    color: white;
+    font-size: 60px;
+}
+
+.text-container__description {
+    font-size: 24px;
+    line-height: 120%;
+    color: #d4d4d4;
+}
+
+.image_iphone {
+    margin-left: 250px;
+    margin-top: 100px;
+    width: 847px;
+    height: 725px;
+}
+
+.content__head__screen {
+    margin-top: 150px;
+    margin-left: 100px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+}
+
+.content__head__screen p {
+    margin-bottom: 15px;
+}
+
+.button__for__order {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 210, 142, 0.85);
+    color: black;
+    width: 344px;
+    height: 66px;
+    border: none;
+    border-radius: 1.25rem;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.button__for__order:hover {
+    background-color: rgba(225, 186, 128, 0.56);
+}
+

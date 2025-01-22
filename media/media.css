@@ -1,0 +1,42 @@
+@media only screen and (max-width : 1470px) {
+    .head__screen {
+
+    }
+
+    .header {
+        min-height: 80px;
+    }
+
+    .header__logo img {
+        padding-top: 5px;
+        width: calc(200px - 10%);
+        height: calc(24px - 10%);
+    }
+
+    .header__button {
+        font-size: 14px;
+        padding-left: calc(176px - 5%);
+    }
+
+    .image_iphone {
+        width: calc(847px - 20%);
+        height: calc(725px - 20%);
+        margin-top: auto;
+    }
+
+    .text-container {
+        font-size: 48px;
+
+    }
+
+    .text-container__description {
+        font-size: 20px;
+        margin-top: calc(40px - 3%);
+    }
+
+    .button__for__order {
+        margin-top: calc(35px - 3%);
+        width: calc(344px - 5%);
+        margin-left: calc(210px - 14%);
+    }
+}
